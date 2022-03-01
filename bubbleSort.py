@@ -1,4 +1,5 @@
 def bubbleSort(lista):
+    #import pdb; pdb.set_trace()
     n = len(lista)
     for i in range (1, n):
         for j in range (0, n-1):

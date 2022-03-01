@@ -17,9 +17,14 @@ def heapify(lista, i):
     return lista                     
 
 def headSort(lista):
+    #segunda lista
+    #import pdb; pdb.set_trace()
     lista2 = []
+    #por cada elemmento
     for i in range(len(lista)//2-1,-1,-1):
         lista = heapify(lista, i)
+        
+    #
     for i in range(0, len(lista)):
         aux = lista[0]
         lista[0] = lista[len(lista) - 1]

@@ -14,6 +14,7 @@ def merge(lista1, lista2):
     return lista3                      
 
 def mergeSort(lista):
+    #import pdb; pdb.set_trace()
     if len(lista) == 1:
         return lista
     listaIzq = lista[:len(lista)//2]
